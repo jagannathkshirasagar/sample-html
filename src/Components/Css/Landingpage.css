@@ -1,0 +1,125 @@
+.HandsonLive{
+    width: 100%;
+    height: 361px;
+    background-color:#f3f1f1;
+    display: flex;
+    flex-direction: row;
+
+}
+.HandsonLive img{
+    padding: 5px;
+    width: 400px;
+    height:350px ;
+    border-radius: 50%;    
+    justify-content: left;
+}
+.hnds{
+    margin-left: 100px;
+    padding: 10px;
+    width: 400px;
+}
+.HandsonLive h1{
+    width: 490px;
+    font-size: 50px;
+    justify-content: right;
+    font-family:"Rubik",sans-serif solid;
+  color: #373f50;  
+  margin-bottom: 10px;
+}
+.HandsonLive p{
+    color: #4b566b;
+    font-family: "Rubik",sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.reqprice{
+    background-color:#8f4831;
+    color: white;
+    font-size: 14px;
+    border-radius:4px;
+    border: 1px solid rgba(239, 84, 18, 0.235);
+    height: 40PX;
+    width: 150px;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 1s ;
+box-shadow: 0px 5px 5px #b55d40b0 ;
+}
+.reqprice:hover{
+    background-color:#6e3b2aee ;
+}
+.reqprice:active{
+    opacity: .8;
+}
+.row2{
+    margin-top: 0px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+}
+.col0{
+    width: 100%;
+    color:#373f50;
+    background-color: #9e8880 ;
+    font-family: "Rubik",sans-serif;
+    font-weight: 500;
+  font-size: 16px; 
+  margin: 0px;
+}
+
+.col2{
+    width: 100%;
+    color:#373f50;
+    background-color: #dfd6d2 ;
+    font-family: "Rubik",sans-serif;
+    font-weight: 100px;
+  font-size: 12px; 
+  margin-top: 0px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center !important;
+  
+}
+.col2 img{
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.col3{
+    width: 100%;
+    color:#373f50;
+    background-color: #b3c7ef;
+    font-family: "Rubik",sans-serif;
+    font-weight: 100px;
+    font-size: 12px;
+  margin: 0px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center !important;
+}
+.col3 img{
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.row2 h1{
+    margin-bottom: 3px;
+    margin-top: 0px;
+}
+.row2 p{
+    margin-top: 3px;
+    font-size: .875rem !important
+}
