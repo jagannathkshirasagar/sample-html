@@ -5,7 +5,7 @@ import "../Components/Css/AcLearningProcess.css"
   return (
     <div>
     <div className='heading'>
-           <h1>Home</h1>
+           <h1> New Home</h1>
            <h2>Accelebrate's Learning Process</h2>
 
        </div>
